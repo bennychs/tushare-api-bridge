@@ -1,5 +1,5 @@
-# 使用一个经过验证的、官方存在的 Python 3.9 slim 版本作为基础
-FROM python:3.9-slim
+# 使用一个经过验证的、官方存在的 Python 3.9 slim-buster 版本作为基础
+FROM python:3.9-slim-buster
 
 # 更新包列表并安装 lxml 和 pandas 可能需要的系统级编译工具和库
 RUN apt-get update && apt-get install -y --no-install-recommends \
