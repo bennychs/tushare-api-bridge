@@ -1,9 +1,8 @@
-# 使用一个经过验证的、官方存在的 Python 3.9 slim-buster 版本作为基础
-FROM python:3.9-slim-buster
+# 使用更新的 Python 3.9 slim-bookworm 版本作为基础
+FROM python:3.9-slim-bookworm
 
-# 更新包列表并安装 lxml 和 pandas 可能需要的系统级编译工具和库
+# 更新包列表并安装可能需要的系统级库（lxml 等依赖的库在 bookworm 中安装更简单）
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    build-essential \
     libxml2-dev \
     libxslt1-dev \
     && rm -rf /var/lib/apt/lists/*
