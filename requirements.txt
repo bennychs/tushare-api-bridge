@@ -1,5 +1,5 @@
-fastapi==0.111.0
-uvicorn==0.29.0
+fastapi==0.104.1
+uvicorn==0.24.0
 tushare==1.2.89
-pandas==2.2.2
-lxml==5.2.2
+pandas==1.5.3
+lxml==4.9.3
