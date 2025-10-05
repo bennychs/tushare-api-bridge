@@ -1,4 +1,4 @@
 fastapi==0.111.0
 uvicorn==0.29.0
-tushare==1.4.9
+tushare==1.5.2
 pandas==2.2.2
