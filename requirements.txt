@@ -3,3 +3,4 @@ uvicorn==0.24.0
 tushare==1.2.89
 pandas==1.5.3
 lxml==4.9.3
+numpy==1.23.5
